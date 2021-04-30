@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "Overwatch",
+    "description": "Jeu d'action en vue à la première personne, Overwatch prend place dans un futur proche, en 2074 pour être exact. Dans des parties en 6 contre 6, le joueur incarne un héros parmi la palette proposée. Chaque personnage a des caractéristiques et des capacités particulières et un rôle défini parmi Attaque, Défense, Tank et Soutien. Les équipes cherchent donc un équilibre afin d'être le plus efficace possible dans l'accomplissement des objectifs (Capture de points, etc).",
+    "price": 12.17,
+    "category" : [
+      "Action",
+      "FPS",
+      "MMO",
+      "Tout"
+    ],
+    "platform": [
+      "PS4",
+      "One",
+      "Switch",
+      "PC",
+      "Mac"
+    ],
+    "developer": "Activision Blizzard",
+    "release_date": "24 mai 2016",
+    "age": 16,
+    "note": 17
+  },
+  {
+    "id": 2,
+    "name": "Rocket League",
+    "description": "Jeu de d'action et de sport, Rocket League vous plonge dans dans des matchs d'arène où votre but sera de marquer des buts. Vous pourrez mettre au point différentes tactiques, soit éviter les attaques des joueurs ennemis pour aller marquer, soit démolir la défense.",
+    "price": 24.99,
+    "category" : [
+      "Action",
+      "Aventure",
+      "MMO",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "Series",
+      "One",
+      "PC"
+    ],
+    "developer": "Psyonix",
+    "release_date": "07 juillet 2015",
+    "age": 3,
+    "note": 16
+  },
+  {
+    "id": 3,
+    "name": "Le Seigneur des Anneaux : La Guerre du Nord",
+    "description": "Le Seigneur des Anneaux : La Guerre du Nord est un jeu d'action-RPG. Son histoire est basée sur un scénario original, librement inspiré de l'univers des romans de Tolkien. Le joueur doit y combattre les forces de Sauron. Il peut pour s'aider fonder sa propre compagnie en ligne, et se faire accompagner de deux autres joueurs dans un nouveau mode coopératif.",
+    "price": 17.20,
+    "category" : [
+      "Action",
+      "RPG",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "PS3",
+      "360",
+      "Mac"
+    ],
+    "developer": "Snowblind Studios",
+    "release_date": "09 novembre 2011",
+    "age": 18,
+    "note": 13
+  },
+  {
+    "id": 4,
+    "name": "FIFA 17",
+    "description": "FIFA 17 est un jeu de simulation de football édité par Electronic Arts. Pour cette nouvelle édition, un mode aventure inédit vous permettra de suivre l'histoire d’Alex Hunter, une recrue cherchant à faire sa place en Premier League. Vous pourrez aussi suivre toute la saison 2016-2017 de football, avec des joueurs et des interactions retravaillés pour l'occasion afin d'améliorer le réalisme du jeu.",
+    "price": 17.99,
+    "category" : [
+      "Sport",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "PS3",
+      "360",
+      "PS4",
+      "One"
+    ],
+    "developer": "EA Sports",
+    "release_date": "29 septembre 2016",
+    "age": 18,
+    "note": 13
+  },
+  {
+    "id": 5,
+    "name": "Assassin s Creed IV : Black Flag",
+    "description": "Jeu d'action-aventure en monde ouvert, Assassin's Creed IV : Black Flag prend place dans les Caraïbes du XVIIIe siècle et vous place dans la peau d'Edward Kenway, pirate peu scrupuleux. Naviguant à bord de son vaisseau, le Jackdaw, vous voyagerez de la Floride à la Jamaïque en passant par quelques villes dont La Havane et Kingston.",
+    "price": 14.00,
+    "category" : [
+      "Action",
+      "Aventure",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "PS3",
+      "360",
+      "PS4",
+      "One",
+      "Switch",
+      "WiiU"
+    ],
+    "developer": "Ubisoft",
+    "release_date": "29 octobre 2013",
+    "age": 18,
+    "note": 16
+  },
+  {
+    "id": 6,
+    "name": "Sea of Thieves",
+    "description": "Sea of Thieves est le nouveau jeu des créateurs de Banjo-Kazooie, Rare Software. Ce titre vous plongera dans l'univers des pirates, où vous pourrez naviguer soit en solitaire, soit à plusieurs sur les mers et mener des batailles navales.",
+    "price": 14.00,
+    "category" : [
+      "Action",
+      "Aventure",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "Series",
+      "ONE"
+    ],
+    "developer": "Rareware",
+    "release_date": "20 mars 2018",
+    "age": 12,
+    "note": 16
+  },
+  {
+    "id": 7,
+    "name": "The Elder Scrolls V : Skyrim",
+    "description": "The Elder Scrolls V : Skyrim est le cinquième épisode de la saga de jeux de rôle du même nom. Le scénario se passe 200 ans après l'histoire du quatrième opus, quand Alduin fait son retour au milieu d'une guerre civile. Seul le Dovahkiin, incarné par le joueur, peut mettre un terme à cette sombre affaire... Un monde gigantesque empli de quêtes est à explorer et auquel se sont rajoutées des extensions débloquant plus de quêtes.",
+    "price": 18.00,
+    "category" : [
+      "RPG",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "Switch",
+      "PS3",
+      "360"
+    ],
+    "developer": "Bethesda Softworks",
+    "release_date": "11 novembre 2011",
+    "age": 18,
+    "note": 18
+  },
+  {
+    "id": 8,
+    "name": "Fallout 4",
+    "description": "Fallout 4 est un RPG à la première personne se déroulant dans un univers post-apocalyptique. Dans un monde dévasté par les bombes, vous incarnez un personnage solitaire sortant d'un abri anti-atomique qui doit se faire sa place dans la ville de Boston et de ses environs.",
+    "price": 5.18,
+    "category" : [
+      "FPS",
+      "RPG",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "PS4",
+      "ONE"
+    ],
+    "developer": "Bethesda Softworks",
+    "release_date": "10 novembre 2015",
+    "age": 18,
+    "note": 16
+  },
+  {
+    "id": 9,
+    "name": "Just Dance 2018",
+    "description": "Just Dance 2018 est un jeu de danse dans lequel vous retrouvez les derniers hits aux grands classiques incontournables et où vous trouvez votre bonheur parmi les 40 nouveaux titres de Just Dance. Comme \" 24k Magic \" de Bruno Mars, \" Naughty Girl \" de Beyoncé, ou pour les fans de la pop culture japonaise, \" Love Ward \" de Hatsune Miku.",
+    "price": 17.23,
+    "category" : [
+      "Danse",
+      "Tout"
+    ],
+    "platform": [
+      "Switch",
+      "PS4",
+      "ONE",
+      "WiiU",
+      "PS3",
+      "360",
+      "Wii"
+    ],
+    "developer": "Ubisoft",
+    "release_date": "26 octobre 2017",
+    "age": 3,
+    "note": 14
+  },
+  {
+    "id": 10,
+    "name": "Call of Duty : Black Ops II",
+    "description": "Call of Duty : Black Ops II est un jeu de tir à la première personne proposant un mode scénario solo et du multijoueur. Le joueur peut suivre deux personnages différents dans deux scénarios distincts, faire des missions classiques stratégiques en Strike Force, ou encore s'amuser en ligne avec le mode Zombie.",
+    "price": 6.18,
+    "category" : [
+      "FPS",
+      "Tout"
+    ],
+    "platform": [
+      "PC",
+      "WiiU",
+      "PS3",
+      "360"
+    ],
+    "developer": "Activision & Treyarch",
+    "release_date": "13 novembre 2012",
+    "age": 18,
+    "note": 17
+  },
+  {
+    "id": 11,
+    "name": "The Legend of Zelda : Breath of the Wild",
+    "description": "The Legend of Zelda : Breath of the Wild est un jeu d'action/aventure. Link se réveille d'un sommeil de 100 ans dans un royaume d'Hyrule dévasté. Il lui faudra percer les mystères du passé et vaincre Ganon, le fléau. L'aventure prend place dans un gigantesque monde ouvert et accorde ainsi une part importante à l'exploration. Le titre a été pensé pour que le joueur puisse aller où il veut dès le début, s'éloignant de la linéarité habituelle de la série.",
+    "price": 29.99,
+    "category" : [
+      "Action",
+      "Aventure",
+      "RPG",
+      "Tout"
+    ],
+    "platform": [
+      "Switch",
+      "WiiU"
+    ],
+    "developer": "Nintendo",
+    "release_date": "03 mars 2017",
+    "age": 12,
+    "note": 20
+  }
+]

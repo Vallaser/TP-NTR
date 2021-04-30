@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.uphf.fr" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://service.uphf.fr" xmlns:intf="http://service.uphf.fr" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://service.uphf.fr" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="postOperationForClient">
+    <complexType>
+     <sequence>
+      <element name="emailClient" type="xsd:string"/>
+      <element name="op" type="xsd:string"/>
+      <element name="dateOp" type="xsd:string"/>
+      <element name="type" type="xsd:string"/>
+      <element name="valueOp" type="xsd:float"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postOperationForClientResponse">
+    <complexType>
+     <sequence>
+      <element name="postOperationForClientReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="postOperationForClientResponse">
+
+      <wsdl:part element="impl:postOperationForClientResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="postOperationForClientRequest">
+
+      <wsdl:part element="impl:postOperationForClient" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="OperationService">
+
+      <wsdl:operation name="postOperationForClient">
+
+         <wsdl:input message="impl:postOperationForClientRequest" name="postOperationForClientRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:postOperationForClientResponse" name="postOperationForClientResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="OperationServiceSoapBinding" type="impl:OperationService">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="postOperationForClient">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="postOperationForClientRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="postOperationForClientResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="OperationServiceService">
+
+      <wsdl:port binding="impl:OperationServiceSoapBinding" name="OperationService">
+
+         <wsdlsoap:address location="http://localhost:8080/WildFlyServer/services/OperationService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

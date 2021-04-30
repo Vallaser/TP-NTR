@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from OperationServiceService WSDL service -->
+
+  <service name="OperationService" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://service.uphf.fr"/>
+      <parameter name="wsdlServiceElement" value="OperationServiceService"/>
+      <parameter name="schemaQualified" value="http://service.uphf.fr"/>
+      <parameter name="wsdlServicePort" value="OperationService"/>
+      <parameter name="className" value="fr.uphf.service.OperationService"/>
+      <parameter name="wsdlPortType" value="OperationService"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://service.uphf.fr" xmlns:retNS="http://service.uphf.fr" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="postOperationForClient" qname="operNS:postOperationForClient" returnQName="retNS:postOperationForClientReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://service.uphf.fr" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:emailClient" type="tns:string"/>
+        <parameter xmlns:pns="http://service.uphf.fr" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:op" type="tns:string"/>
+        <parameter xmlns:pns="http://service.uphf.fr" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:dateOp" type="tns:string"/>
+        <parameter xmlns:pns="http://service.uphf.fr" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:type" type="tns:string"/>
+        <parameter xmlns:pns="http://service.uphf.fr" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:valueOp" type="tns:float"/>
+      </operation>
+      <parameter name="allowedMethods" value="postOperationForClient"/>
+
+  </service>
+</deployment>

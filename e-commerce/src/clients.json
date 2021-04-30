@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "surname": "bal",
+    "firstname": "valerian",
+    "age": 21,
+    "email": "vallaser@outlook.com",
+    "password" : "vbal_",
+    "video_games": [
+      "Rocket League",
+      "Sea of Thieves",
+      "Assassin's Creed IV : Black Flag",
+      "Le Seigneur des Anneaux : La Guerre du Nord"
+    ]
+  },
+  {
+    "id": 2,
+    "surname": "messi",
+    "firstname": "lionel",
+    "age": 33,
+    "email": "leo@gmail.com",
+    "password" : "goat",
+    "video_games" : [
+      "FIFA 17",
+      "The Elder Scrolls V : Skyrim"
+    ]
+  },
+    {
+    "id": 3,
+    "surname": "colras",
+    "firstname": "quentin",
+    "age": 21,
+    "email": "colras.quentin@gmail.com",
+    "password" : "qcol_",
+    "video_games" : [
+      "Overwatch",
+      "Assassin's Creed IV : Black Flag",
+      "Call of Duty : Black Ops II"
+    ]
+  }
+]
