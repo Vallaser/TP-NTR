@@ -1,6 +1,6 @@
 # Nouvelles Technologies de la répartition 2021
 
-##SITE E-COMMERCE
+## SITE E-COMMERCE
 /e-commerce Suivre les instructions du README.md présentes dans ce dossier. Si un problème survient à cause de ESLint faire dans la console : npm remove @vue/cli-plugin-eslint
 
 ## CLIENT SOAP
