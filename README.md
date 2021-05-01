@@ -1,6 +1,6 @@
 # NTR2021
 
-##SITE E-COMMERCE
+## SITE E-COMMERCE
 
 /e-commerce
 Suivre les instructions du README.md présentes dans ce dossier.
